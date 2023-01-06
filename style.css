@@ -1,0 +1,192 @@
+#logo {
+  width: 100px;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel .carousel-indicators [data-bs-target].active {
+  background-color: black;
+}
+.slider {
+  position: absolute;
+  bottom: 11rem;
+}
+.sliderimg img {
+  width: 100%;
+  height: 100vh;
+}
+.cardposition {
+  position: relative;
+  bottom: 6rem;
+}
+.clientbox {
+  background-color: #e6e6e6;
+  height: 90vh;
+}
+.loginbutton {
+  background-color: #7e6a9e;
+  border: none;
+  width: 130px;
+  height: 40px;
+}
+.loginbutton1 {
+  background-color: #7e6a9e;
+  border: none;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.c1 {
+  border: 1.75px solid #dedede;
+  align-self: center;
+}
+.c1 img {
+  width: 220x;
+}
+.card1 {
+  font-size: 22px;
+}
+.s1{
+  font-size:13px ;
+}
+
+
+@media (max-width: 1024px) {
+  .loginbutton1 {
+    background-color: #7e6a9e;
+    border: none;
+
+    font-size: 12px;
+  }
+  .card1 {
+    font-size: 15px;
+  }
+  .s1 {
+    font-size: 12px;
+  }
+}
+
+@media  (max-width: 768px) {
+  .logocol {
+    width: 17%;
+  }
+  .appbar {
+    width: 50%;
+  }
+  .clientbox {
+    background-color: #e6e6e6;
+    height: 70vh;
+  }
+
+ 
+  .loginbutton1 {
+      background-color: #7e6a9e;
+      border: none;
+      width: 85px;
+     
+      height: 30px;
+      font-size: 10px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    font-size: 14px;
+}
+  .button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card1 {
+    font-size: 13px;
+  }
+  .s1 {
+    font-size: 9px;
+  }
+}
+
+
+@media  (max-width: 460px) {
+  .cardposition {
+    flex-direction: column;
+  }
+
+  .cardposition > .card {
+    width: 100% !important;
+  }
+  .loginbutton1 {
+    background-color: #7e6a9e;
+    border: none;
+    width: 100px;
+    margin: 12px -16px 10px 0px;
+     margin-right: 11px; 
+  height: 6px;
+    font-size: 10px;
+    padding-bottom: 25px;
+  }
+  .clientbox {
+    background-color: #e6e6e6;
+    height: auto;
+
+    position: relative;
+    top: 2rem;
+   
+  }
+  .cnames{
+    padding-bottom:20px ;
+  }
+  .logocol {
+    width: 5%;
+  }
+  .appbar {
+    width: 7%;
+  }
+  .cardposition {
+    position: relative;
+    top: 2rem;
+  }
+  .sliderimg img {
+    width: 100%;
+    height: 40vh;
+  }
+  .slider {
+    position: absolute;
+    bottom: 1.5rem;
+  }
+  .slider h1 {
+    font-size: 16px;
+  }
+  .slider h5 {
+    font-size: 10px;
+  }
+  .s1{
+    font-size:12px ;
+  }
+  .p1{
+    font-size:14px
+  }
+  .social-media-icons{
+  
+   flex-direction: row;
+ 
+   justify-content: space-around;
+   width: 100%;
+   margin-left: 50px;
+  }
+  footer{
+    margin-top: 20px;
+  }
+  .c1{
+    width:70%;
+    display:flex;
+    flex-wrap: wrap;
+  
+  }
+}
+
+
+
